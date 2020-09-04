@@ -3,10 +3,17 @@ body {
 }
 
 .navbar-light {
-    background-color: #3F6473;
+    background-color: rgba(63, 100, 115, 0.6);
     
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-dark {
+    background-color: #5D696E;
+}
 .active {
     font-weight: bolder;
 }
@@ -29,6 +36,6 @@ a:focus, .fab:focus {
 }
 
 a:visited, .fab:visited {
-    color: #C1C8D4 !important;
+    color: #DCE4F2 !important;
 }
 
