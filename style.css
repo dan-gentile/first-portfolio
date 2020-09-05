@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
 body {
     background: #FCFDFF;
     
@@ -38,4 +45,12 @@ a:focus, .fab:focus {
 
 a:visited, .fab:visited {
     color: #DCE4F2 !important;
+}
+
+.profile-pic {
+    border-radius: 100%;
+}
+
+.fa-2x {
+    color: #5D696E !important;
 }
