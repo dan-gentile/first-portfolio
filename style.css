@@ -1,5 +1,6 @@
 body {
     background: #FCFDFF;
+    
 }
 
 .navbar-light {
@@ -38,4 +39,3 @@ a:focus, .fab:focus {
 a:visited, .fab:visited {
     color: #DCE4F2 !important;
 }
-
