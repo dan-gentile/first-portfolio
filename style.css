@@ -54,3 +54,12 @@ a:visited, .fab:visited {
 .fa-2x {
     color: #5D696E !important;
 }
+
+.fun-fact {
+    font-style: italic;
+}
+
+.contact {
+    border-radius: 1%;
+    background-color: #DCE4F2;
+}
