@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link px-4" href="/index.html">Home </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link px-4" href="/portfolio.md">Portfolio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link px-4" href="index.html">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-4" href="/contact.md">Contact </a>
+                        <a class="nav-link px-4" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link px-4" href="contact.html">Contact <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
 
@@ -57,45 +57,50 @@
             </div>
         </nav>
     </header>
-        <main class="container gallery">
-            <div class="row pt-4 mt-4">
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <h2>Portfolio</h2>
-                </div>
+
+
+
+    <main class="contact container d-flex flex-column p-4 mt-4">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h2>Let's Connect</h2>
             </div>
+        </div>
 
-            <section class="row mt-4">
-                <article class="col-12 col-sm-12 col-lg-6 p-4">
-                    <img class="w-100 img-fluid" src="Assets/images/IMG_4385.jpg" alt="NYC skyline">
-                </article>
-                <article class="col-12 col-sm-12 col-lg-6 p-4">
-                    <img class="w-100" src="Assets/images/IMG_4909.png" alt="new zealand beach">
-                </article>
-             
-            </section>
-
-            <section class="row">
-                <article class="col-12 col-sm-12 col-lg-6 p-4">
-                    <img class="w-100 img-fluid" src="Assets/images/IMG_6744.jpg" alt="death valley">
-                </article>
-                <article class="col-12 col-sm-12 col-lg-6 p-4">
-                    <img class="w-100" src="Assets/images/IMG_1632.jpg" alt="southern france">
-                </article>
-            </section>
-
-            <div class="row p-4 m-4">
-                <div class="col-12">
+        </div>
+        <div class="row d-flex justify-content-center pt-4 mt-4">
+            <form class="col-sm-6 d-flex flex-column">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                        placeholder="First and Last Name">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark mb-2">Submit</button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-4 m-4"></div>
+        </div>
 
-        </main>
+
+
+    </main>
 
 
 
 
 
     <footer>
-        <nav class="navbar navbar-expand-sm sticky-bottom navbar-dark">
+        <nav class="navbar navbar-expand-sm fixed-bottom navbar-dark">
             <ul class="navbar-nav flex-column m-auto">
                 <li class="nav-item">
                     <a class="navbar-brand " href="#"><img src="/Assets/svg files/fox-rabbit-logo.svg" width="60"
