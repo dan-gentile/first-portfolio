@@ -29,10 +29,10 @@
                         <a class="nav-link px-4" href="/index.html">Home </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link px-4" href="/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link px-4" href="/portfolio.md">Portfolio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-4" href="/contact.html">Contact </a>
+                        <a class="nav-link px-4" href="/contact.md">Contact </a>
                     </li>
                 </ul>
 
