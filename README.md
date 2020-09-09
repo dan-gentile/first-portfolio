@@ -1,5 +1,4 @@
 # first-portfolio
-<hr>
 
 https://dan-gentile.github.io/first-portfolio/
 
@@ -11,7 +10,7 @@ HTML/CSS/JS - Using Bootstrap
 Continually a work in progress 
 
 <h2>Screen Shots</h2>
-<hr>
+
 
 <h3>--Home Page--</h3>
 <img width="1778" alt="Screen Shot 2020-09-09 at 8 45 38 AM" src="https://user-images.githubusercontent.com/68626350/92622247-b2072a00-f279-11ea-810d-98b629dc2f1a.png">
