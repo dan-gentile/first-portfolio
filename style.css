@@ -6,13 +6,11 @@
 }
 
 body {
-    background: #FCFDFF;
-    
+    background: #fcfdff;
 }
 
 .navbar-light {
     background-color: rgba(63, 100, 115, 0.6);
-    
 }
 
 .navbar-nav {
@@ -20,31 +18,35 @@ body {
 }
 
 .navbar-dark {
-    background-color: #5D696E;
+    background-color: #5d696e;
 }
+
 .active {
     font-weight: bolder;
 }
 
 .navbar-toggler-icon {
-    border-color: #DCE4F2 !important;
-    
+    border-color: #dce4f2 !important;
 }
 
-a, .fab {
-    color: #DCE4F2 !important;
+a, 
+.fab {
+    color: #dce4f2 !important;
 }
 
-a:hover, .fab:hover {
-    color: #CFDCF1 !important;
+a:hover, 
+.fab:hover {
+    color: #cfdcf1 !important;
 }
 
-a:focus, .fab:focus {
-    color: #D8E0ED !important;
+a:focus, 
+.fab:focus {
+    color: #d8e0ed !important;
 }
 
-a:visited, .fab:visited {
-    color: #DCE4F2 !important;
+a:visited, 
+.fab:visited {
+    color: #dce4f2 !important;
 }
 
 .profile-pic {
@@ -52,7 +54,7 @@ a:visited, .fab:visited {
 }
 
 .fa-2x {
-    color: #5D696E !important;
+    color: #5d696e !important;
 }
 
 .fun-fact {
@@ -61,5 +63,5 @@ a:visited, .fab:visited {
 
 .contact {
     border-radius: 1%;
-    background-color: #DCE4F2;
+    background-color: #dce4f2;
 }
